@@ -1,0 +1,69 @@
+<style>
+        #cookieWrapperServer{overflow:hidden;border:1px solid transparent;min-height:0px;min-height:0px;padding:0;position:relative}
+        .wrap{width:50%;overflow:hidden;min-height:20%;background-color:rgba(255, 255, 255, 0.85);color:#000;left:20px;bottom:20px;padding:10px!important;position:fixed;box-shadow:5px 3px 3px 4px rgba(170, 172, 173, 0.87);z-index:99999999999999}
+.cookwrap{background-color:rgba(255, 255, 255, 0.89);font-size:13px;color:#000;width:100%;margin-top:4px;padding:12px;z-index:99999999;border-radius:5px;overflow:hidden;border:1px solid;border-color:transparent;/*top:50%;left:50%;position:absolute;transform: translate(-50%, -50%);*/}
+.cookwrap span{color:#000;background-color:#1ea10f;text-decoration:none;padding:8px;border-radius:3px;padding:10px;overflow:hidden;}
+.wrap p{width:90%;margin-left:auto;margin-right:auto;text-align:center;padding:5px;overflow:hidden;border:1px solid;border-color:transparent;color:#000;font-size:20px; line-height:280%}
+.cookwrap a{text-decoration:none;color:#000;font-weight:700;text-transform:uppercase;}
+.hidden{display:none;overflow:hidden;height:0px;}
+@media screen and (max-width:600px){
+    .wrap{width:100%;}
+}
+    </style>
+    <script>
+        function toggleLogout() {
+            var z = document.getElementById("userName1").innerHTML;
+            //alert(z);
+            var Logout = document.getElementById("logout");
+            var Login = document.getElementById("userLog1");
+            if (z === 'Not logged in') {
+                Login.style.display = 'block';
+                Logout.style.display = 'none';
+            } else {
+                Login.style.display = 'none';
+                Logout.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body lang="en-gb" onload="addDelayedScriptFB()" onkeydown="readEsc(event)">
+    
+    <form method="post" action="./" id="form1" itemscope="itemscope" itemtype="http://schema.org/Organization">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="y90joVd+60Uqb8qujWBNURufTPq5OGEi8m1uzi426YwlxOemnFR5+1GkLe9vRqMFX/k5kB+cFAd5XTNh6KvcGq+4iH3dljb+1AB+SFelsEMlHA9OEy9eqacExQcUwc8uvaewUgYCyJHzYpcKCECm2oNWxOFI2qT1APJ65b1gWjL2qDma8iZyvDq1mKjdNNZI812SMy/FBFkGl2JzJHs4fVlKec8q05FhNdiMK7V0zmBJ5+kqO2QT7Wxs5SPdLdZUPaWRFso6KzRWRNj5SI/L1WIHSKSsf3IwnEu42zBOytu0K9KSTjoqVG0OdASCZ3AtYbNSEqo3TE96IiqgIo7jS9DC34tKMNLFiQN46qrCU9yonTG4o7UnqRZ5+s4Al5YwdCfEFwUC2VZ2fSLKC6aIQrdRxLP6uo3tGv6KAxGovymk7bDclYPFcUdD6tkGnl53qM2pOfGHac2Eaw6epzZtQlH3A8KFAlvdxcmq7zoO+akAsv9nkDX7onr3qxgvlHwGJ5no008VEAyRBrNphR0paBxacbbYCiiTi5hQUhsfXN5Xd0rz0Eez3FuB15LU9dn/9AI4L0jeqqOlIiL4HGlVFhhWWRdsZ4s7lBINsU49fRKrjaHxu6KF24AfxLkaW7c6QJasPtHnuRH4Fz/gzZWPglQ7dc6L6tEe0SpxiR4WBhcpUpK5N+p7nJcAveVojMJd5Wqi9ytmTQns7L+Qznj4qlrla3vRpWWcPhTvdEMoEsuXv0Kmoo517ypLppDxWsHXsaiZGYVAW1uUnH38rzqMGY8nBGtOSc3VTgPCRgWk/SVIKNnjVwnfsXriZM2r/qrGXYB3z/+o8yToFnDwU9A2bXRrjoP55YsMdd7ggNVmpXVFZa2wah/KisQ4kK+a9fWv4uAormJhcbay/L/H7kTpN8F3Lv67cVnCLc7ACHMM1d469OaZquemR6d/atqgSoUAkiGY4dUhuw7Tgmt+ZNC57w==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZHAOwGP7dcnz5QixEDNXtu5mLYgnW-xFmSkMe5zEHy_tifcD-_7IRGQCOU6Hdo7rvQ2&amp;t=636934902280000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvncIpCzLuOjwFjIrkkzFMPdvF6Kr1IAsFSbzAGSnXM7tygZX2v_eihoWbd2lggUYkQ54YwD9wu9J1YItf8HqqMHYhSG6AFwJ0Hyv8YHiRYSElVOSPiT3uPP5lJV0nSsISWEU8009JAvosNowFGP0gp01&amp;t=ffffffff80bd9323" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OJts5AUO8jGBkPK1YE4pEC8Aq3tgRdl9TUAE6gA4jC2EQzDFepKsQG8w-4TriuvTYXSuPliGN4E4o6UIBEmFYztFM1vVkX_lsZFmC4BR9L72H9_sTGtE6tEvtHK1iWGbj83eCv9LJGs-mAYt7chQScU1&amp;t=ffffffff80bd9323" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="l1JoqPVMNLg9lPi5sL6LdvKylbJ0mcQudQXalI+MF91HTEnDvUiKku2OpbUJXrF5SSg14wwL0hfi96tP7WW1IB3nFC5To4khvXd5LIOVHZQ4QmCob2O/tU0bztdmHh+xfZE886jm1eGkRW+lG3wVGncQpNQxdUkrXae6hS/1nxyxHU3jlGWXC4O5GHdugLMbU6VRA/JAWn2fJJTLQMVdVw==" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
